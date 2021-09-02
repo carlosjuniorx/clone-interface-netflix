@@ -1,0 +1,93 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) 100% ,url("https://www.themoviedb.org/t/p/original/4N6zEMfZ57zNEQcM8gWeERFupMv.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(219, 210, 210);
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    
+}
+.container{
+    margin-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: aliceblue;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.filme-principal .container{
+    max-width: 50%;
+    margin-top: 15px;
+}
+
+.filme-principal{   
+    height: 500px;
+    color: rgb(201, 193, 193);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.botoes{
+    margin-top: 40px;
+}
+.botao{
+    color: #141414;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #aaa;
+    cursor: pointer;
+}
+.botao.Inform{
+    background-color: rgb(70, 68, 68);
+    color:rgb(201, 193, 193);
+    margin-left: 10px;
+}
+.botao:hover{
+    background-color: rgb(104, 101, 101);
+}
+.botao.Inform:hover{
+    background-color: rgb(128, 125, 125);
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrossel-filmes{
+    margin-top: 40px;
+}
+
